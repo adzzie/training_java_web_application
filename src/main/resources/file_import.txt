@@ -1,0 +1,3 @@
+nama,email
+aji,aji@training.com
+rafa,rafa@training.com

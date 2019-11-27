@@ -20,7 +20,12 @@ public class Hello {
 
     public static void main(String[] x){
         System.out.println("main method");
-        Nasabah n = new Nasabah("aji");
+        Nasabah n = new Nasabah();
         System.out.println("hallo "+ n.getNama());
+
+        Nasabah n2 = new Nasabah();
+        System.out.println("hallo "+ n2.getNama());
+
+        System.out.println("jumlah nasabah : "+Nasabah.jumlahNasabah);
     }
 }
